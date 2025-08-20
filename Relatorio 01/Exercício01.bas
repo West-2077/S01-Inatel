@@ -9,10 +9,10 @@
 90 if nmedia > 50 THEN GOTO 300 else GOTO 400
 
 100 print "Aprovado Direto"
-0  END
+    GOTO 0
 200 print "Reprovado Direto"
     GOTO 0
 300 print "Aprovado pela NP3"
     GOTO 0
 400 print "Reprovado na NP3"
-    GOTO 0
+0  END
