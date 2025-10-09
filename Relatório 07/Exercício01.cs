@@ -17,7 +17,7 @@ public class MembroDaSociedade
     public void apresentar()
     {
         Console.WriteLine($"Nome: {nome}");
-        Console.WriteLine($"Raca: {raca}");
+        Console.WriteLine($"Raça: {raca}");
         Console.WriteLine($"função: {func}");
         Console.WriteLine("__________________");
     }
@@ -28,7 +28,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        MembroDaSociedade aragon = new MembroDaSociedade("Aragon", "Humano", "Guardiao");
+        MembroDaSociedade aragon = new MembroDaSociedade("Aragon", "Humano", "Guardião");
         MembroDaSociedade legolas = new MembroDaSociedade("Legolas", "Elfo", "Arqueiro");
 
         aragon.apresentar();
@@ -38,3 +38,4 @@ class Program
     }
 
 }
+
