@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 
 public class MembroDaSociedade
@@ -37,4 +36,5 @@ class Program
 
         Console.WriteLine("\n=== Fim da Demonstração ==="); 
     }
+
 }
