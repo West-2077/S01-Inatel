@@ -35,3 +35,4 @@ class Cavaleiro(Personagem):
 # p = Personagem(100, 50)  # ❌ Isso daria erro, porque é uma classe abstrata
 c = Cavaleiro(120, 70, True)
 print(c)
+
